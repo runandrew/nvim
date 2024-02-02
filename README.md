@@ -15,3 +15,9 @@
 - If there is support then add to the list in [lsp-config](./lua/plugins/lsp-config.lua) under `ensure_installed`, and then run the setup function (e.g. `lspconfig.tsserver.setup({})`)
 - If there is no support, then search in Mason (`:Mason`) for the package and install it (hit `i`)
 - Add a new configuration in the [none-ls plugin file](./lua/plugins/none-ls.lua)
+
+## Troubleshooting
+
+_Language server is not working_
+
+- Run `:LspInfo` to confirm that the server is running
