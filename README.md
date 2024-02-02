@@ -2,6 +2,9 @@
 
 ## Setup
 
+- Remove any existing configurations by removing the `~/.config/nvim` and `~/.local/share/nvim` folders
+- Clone the repo: `git clone git@github.com:runandrew/nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim`
+- Start Neovim: `nvim`
 - After initial installation, use Mason to install the formatting and diagnostics libraries. There may be an automatic way of doing this.
   - Find the necessary libraries in the [./lua/plugins/non-ls.lua](none-ls plugin file)
   - Run `:Mason` and then use the UI to install
