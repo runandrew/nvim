@@ -9,6 +9,6 @@
 ## Adding new lanugage support
 
 - See if mason-lspconfig has support in this [list](https://github.com/williamboman/mason-lspconfig.nvim?tab=readme-ov-file#available-lsp-servers)
-- If there is support then add to the list in [./lua/plugins/lsp-config.lua](lsp-config) under `ensure_installed`, and then run the setup function (e.g. `lspconfig.tsserver.setup({})`)
+- If there is support then add to the list in [lsp-config](./lua/plugins/lsp-config.lua) under `ensure_installed`, and then run the setup function (e.g. `lspconfig.tsserver.setup({})`)
 - If there is no support, then search in Mason (`:Mason`) for the package and install it (hit `i`)
-- Add a new configuration in [./lua/plugins/non-ls.lua](none-ls plugin file)
+- Add a new configuration in the [none-ls plugin file](./lua/plugins/none-ls.lua)
