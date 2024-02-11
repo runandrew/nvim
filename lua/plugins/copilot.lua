@@ -11,7 +11,9 @@ return {
       ["*"] = false,
       ["javascript"] = true,
       ["typescript"] = true,
+      ["typescriptreact"] = true,
       ["lua"] = true,
+      ["java"] = true,
     }
   end,
 }

@@ -16,6 +16,7 @@ return {
           "biome", -- JSON
           "marksman", -- Markdown
           "yamlls",
+          "jdtls",
         },
       })
     end,
@@ -31,6 +32,7 @@ return {
       lspconfig.biome.setup({})
       lspconfig.marksman.setup({})
       lspconfig.yamlls.setup({})
+      lspconfig.jdtls.setup({})
 
       vim.api.nvim_create_autocmd("LspAttach", {
         group = vim.api.nvim_create_augroup("UserLspConfig", {}),
