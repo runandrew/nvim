@@ -14,6 +14,7 @@ return {
       ["typescriptreact"] = true,
       ["lua"] = true,
       ["java"] = true,
+      ["shell"] = true,
     }
   end,
 }
